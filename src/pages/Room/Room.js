@@ -12,7 +12,7 @@ const Room = () => {
         <div>
             {clients.map(clientID => {
              return (
-                 <div>
+                 <div key={clientID}>
                      <video
                          ref={instance => {
                          provideMediaRef(clientID, instance)

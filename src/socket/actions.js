@@ -6,7 +6,8 @@ const ACTIONS = {
     REMOVE_PEER: 'remove-peer',
     RELAY_SDP: 'relay-sdp',
     RELAY_ICE: 'relay-ice',
-    SESSION_DESCRIPTION: 'session-description'
+    SESSION_DESCRIPTION: 'session-description',
+    ICE_CANDIDATE: 'ice-candidate'
 };
 
 module.exports = ACTIONS;
